@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Rxt-sh-Pfm">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YoseGoe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7E-YE-Kvg" customClass="EMTNeumorphicButton" customModule="EMTNeumorphicView">
+                                <rect key="frame" x="79" y="413" width="256" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96862745098039216" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="新規作成">
+                                    <color key="titleColor" red="0.4392156862745098" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="createID:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Orf-8d-01G"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oMt-Rj-id6" customClass="EMTNeumorphicView" customModule="EMTNeumorphicView">
+                                <rect key="frame" x="20" y="117" width="374" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V7B-YY-bHR">
+                                        <rect key="frame" x="8" y="11" width="358" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jz2-3r-1DT" customClass="EMTNeumorphicView" customModule="EMTNeumorphicView">
+                                <rect key="frame" x="20" y="207" width="374" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2zT-Ja-Y7c">
+                                        <rect key="frame" x="8" y="11" width="351" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OgI-Ya-0iO" customClass="EMTNeumorphicButton" customModule="EMTNeumorphicView">
+                                <rect key="frame" x="79" y="320" width="256" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="寄せ書きを開始する">
+                                    <color key="titleColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startYosegaki:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8EI-pd-4nP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.97647058823529409" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="GYc-pk-Wwv"/>
+                    <connections>
+                        <outlet property="IDTextField" destination="V7B-YY-bHR" id="BcD-XB-eK4"/>
+                        <outlet property="IDTextFieldView" destination="oMt-Rj-id6" id="TUA-hh-3ft"/>
+                        <outlet property="createIDButton" destination="K7E-YE-Kvg" id="X4p-7Y-u1b"/>
+                        <outlet property="passwordTextField" destination="2zT-Ja-Y7c" id="cSj-l4-D2Y"/>
+                        <outlet property="passwordTextFieldView" destination="Jz2-3r-1DT" id="5yf-p2-Q3y"/>
+                        <outlet property="startYosegakiButton" destination="OgI-Ya-0iO" id="Fm2-8Z-9bg"/>
+                        <segue destination="HPz-Q0-Ad7" kind="show" identifier="SetYosegakiInfoVC" id="hLI-Sc-tCl"/>
+                        <segue destination="7Kf-6c-tiu" kind="show" identifier="MessageBoardVC" id="4yv-gk-hnv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1514" y="80"/>
+        </scene>
+        <!--Message Board View Controller-->
+        <scene sceneID="5A5-C9-J9r">
+            <objects>
+                <viewController id="7Kf-6c-tiu" customClass="MessageBoardViewController" customModule="YoseGoe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="20s-ZH-Yte">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ilP-4g-x3j" customClass="EMTNeumorphicView" customModule="EMTNeumorphicView">
+                                <rect key="frame" x="20" y="184" width="374" height="678"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="RNh-gX-t3h">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="678"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="VeG-TI-Jy3">
+                                            <size key="itemSize" width="128" height="128"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="messageCell" id="avD-No-Osi">
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gAH-s1-usJ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noprofile" translatesAutoresizingMaskIntoConstraints="NO" id="LmF-M3-PDa">
+                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                            <color key="tintColor" systemColor="systemGray4Color"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                </collectionViewCellContentView>
+                                            </collectionViewCell>
+                                        </cells>
+                                    </collectionView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uff-3I-xP6" customClass="EMTNeumorphicView" customModule="EMTNeumorphicView">
+                                <rect key="frame" x="20" y="106" width="374" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wh3-PM-xVl">
+                                        <rect key="frame" x="8" y="0.0" width="358" height="51"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                        <color key="textColor" red="0.29411764709999999" green="0.29411764709999999" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pxJ-Cd-Xah"/>
+                        <color key="backgroundColor" red="0.97556537389999998" green="0.9179442525" blue="0.91740047930000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hr6-7l-Ppj"/>
+                    <connections>
+                        <outlet property="EMTNeumorphicTextView" destination="Uff-3I-xP6" id="EF3-52-bep"/>
+                        <outlet property="EMTNeumorphicView" destination="ilP-4g-x3j" id="mAE-1U-Xxc"/>
+                        <outlet property="collectionView" destination="RNh-gX-t3h" id="pb8-AZ-C0M"/>
+                        <outlet property="nameLabel" destination="wh3-PM-xVl" id="rqj-gy-fK7"/>
+                        <segue destination="NMn-4U-OkI" kind="show" identifier="RecordVC" id="aZX-Ew-oD1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="co4-5U-P9n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1511.5942028985507" y="803.57142857142856"/>
+        </scene>
+        <!--Record View Controller-->
+        <scene sceneID="yQn-wg-eOH">
+            <objects>
+                <viewController id="NMn-4U-OkI" customClass="RecordViewController" customModule="YoseGoe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FfL-7w-dWp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fWP-eR-iu7" customClass="EMTNeumorphicView" customModule="EMTNeumorphicView">
+                                <rect key="frame" x="120" y="154" width="180" height="180"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4TJ-cU-xAR">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="180" id="407-cU-jDJ"/>
+                                            <constraint firstAttribute="width" secondItem="4TJ-cU-xAR" secondAttribute="height" multiplier="1:1" id="cOw-hZ-0md"/>
+                                        </constraints>
+                                        <state key="normal" image="noprofile">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="REX-5C-mUn"/>
+                                    <constraint firstAttribute="trailing" secondItem="4TJ-cU-xAR" secondAttribute="trailing" id="TU8-of-uuH"/>
+                                    <constraint firstItem="4TJ-cU-xAR" firstAttribute="leading" secondItem="fWP-eR-iu7" secondAttribute="leading" id="TbH-QI-Xh8"/>
+                                    <constraint firstAttribute="width" secondItem="fWP-eR-iu7" secondAttribute="height" multiplier="1:1" id="bym-QV-ZN7"/>
+                                    <constraint firstAttribute="bottom" secondItem="4TJ-cU-xAR" secondAttribute="bottom" id="cWM-TO-flY"/>
+                                    <constraint firstItem="4TJ-cU-xAR" firstAttribute="top" secondItem="fWP-eR-iu7" secondAttribute="top" id="g19-SZ-EBf"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="プロフィール画像を選択" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zdi-cU-p1M">
+                                <rect key="frame" x="20" y="108" width="380" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ボタンを押してメッセージを録音" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="swc-D6-Cwx">
+                                <rect key="frame" x="20" y="419" width="380" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkc-sS-uEN" customClass="EMTNeumorphicButton" customModule="EMTNeumorphicView">
+                                <rect key="frame" x="170" y="464.5" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fkc-sS-uEN" secondAttribute="height" multiplier="1:1" id="47d-y3-G7r"/>
+                                    <constraint firstAttribute="width" constant="80" id="qmC-ph-OCH"/>
+                                </constraints>
+                                <state key="normal" image="playandstop"/>
+                                <connections>
+                                    <action selector="playAndStopRecord:" destination="NMn-4U-OkI" eventType="touchUpInside" id="foD-v4-NY2"/>
+                                    <action selector="recordMessage:" destination="NMn-4U-OkI" eventType="touchUpInside" id="P4G-he-du0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gu8-a7-r2b" customClass="EMTNeumorphicButton" customModule="EMTNeumorphicView">
+                                <rect key="frame" x="20" y="464.5" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="m5n-IE-hsl"/>
+                                    <constraint firstAttribute="width" secondItem="Gu8-a7-r2b" secondAttribute="height" multiplier="1:1" id="uB3-Zj-Ocu"/>
+                                    <constraint firstAttribute="width" constant="80" id="v82-cX-kiS"/>
+                                </constraints>
+                                <state key="normal" image="record"/>
+                                <connections>
+                                    <action selector="recordMessage:" destination="NMn-4U-OkI" eventType="touchUpInside" id="GIS-Uu-rOQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DoA-8A-q81" customClass="EMTNeumorphicButton" customModule="EMTNeumorphicView">
+                                <rect key="frame" x="320" y="464.5" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="B8E-xG-7f2"/>
+                                    <constraint firstAttribute="width" secondItem="DoA-8A-q81" secondAttribute="height" multiplier="1:1" id="vw0-aZ-rKk"/>
+                                </constraints>
+                                <state key="normal" image="save">
+                                    <color key="titleColor" red="0.29411764705882354" green="0.29411764705882354" blue="0.29411764705882354" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="recordMessage:" destination="NMn-4U-OkI" eventType="touchUpInside" id="xRz-Aa-fgO"/>
+                                    <action selector="saveDataToFirestore:" destination="NMn-4U-OkI" eventType="touchUpInside" id="L1y-lD-oId"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wRY-eX-CRs"/>
+                        <color key="backgroundColor" red="0.98712641000000001" green="0.91417056320000001" blue="0.91756623979999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Gu8-a7-r2b" firstAttribute="top" secondItem="swc-D6-Cwx" secondAttribute="bottom" constant="25" id="1Pa-80-6rV"/>
+                            <constraint firstItem="fkc-sS-uEN" firstAttribute="top" secondItem="swc-D6-Cwx" secondAttribute="bottom" constant="25" id="63N-dN-wex"/>
+                            <constraint firstItem="wRY-eX-CRs" firstAttribute="trailing" secondItem="Zdi-cU-p1M" secondAttribute="trailing" constant="20" id="73g-76-0IN"/>
+                            <constraint firstItem="fkc-sS-uEN" firstAttribute="leading" secondItem="Gu8-a7-r2b" secondAttribute="trailing" constant="70" id="8JD-wc-EJn"/>
+                            <constraint firstItem="wRY-eX-CRs" firstAttribute="trailing" secondItem="swc-D6-Cwx" secondAttribute="trailing" constant="20" id="9r4-mC-EgZ"/>
+                            <constraint firstItem="Zdi-cU-p1M" firstAttribute="leading" secondItem="wRY-eX-CRs" secondAttribute="leading" constant="20" id="Bpe-Lw-sLU"/>
+                            <constraint firstItem="swc-D6-Cwx" firstAttribute="top" secondItem="fWP-eR-iu7" secondAttribute="bottom" constant="85" id="Fnm-3D-5ir"/>
+                            <constraint firstItem="swc-D6-Cwx" firstAttribute="leading" secondItem="wRY-eX-CRs" secondAttribute="leading" constant="20" id="GSr-lm-Sd7"/>
+                            <constraint firstItem="fkc-sS-uEN" firstAttribute="centerX" secondItem="FfL-7w-dWp" secondAttribute="centerX" id="JID-fT-pzG"/>
+                            <constraint firstItem="wRY-eX-CRs" firstAttribute="trailing" secondItem="DoA-8A-q81" secondAttribute="trailing" constant="20" id="Z0r-6t-mbl"/>
+                            <constraint firstItem="wRY-eX-CRs" firstAttribute="trailing" secondItem="fWP-eR-iu7" secondAttribute="trailing" constant="120" id="Zh4-ls-RHi"/>
+                            <constraint firstItem="DoA-8A-q81" firstAttribute="top" secondItem="swc-D6-Cwx" secondAttribute="bottom" constant="25" id="daF-I1-yXp"/>
+                            <constraint firstItem="Zdi-cU-p1M" firstAttribute="top" secondItem="wRY-eX-CRs" secondAttribute="top" constant="20" id="gTC-Sw-6eK"/>
+                            <constraint firstItem="Gu8-a7-r2b" firstAttribute="leading" secondItem="wRY-eX-CRs" secondAttribute="leading" constant="20" id="gtH-ZB-U44"/>
+                            <constraint firstItem="fWP-eR-iu7" firstAttribute="top" secondItem="Zdi-cU-p1M" secondAttribute="bottom" constant="25" id="ql2-k3-30n"/>
+                            <constraint firstItem="fWP-eR-iu7" firstAttribute="leading" secondItem="wRY-eX-CRs" secondAttribute="leading" constant="120" id="tOG-jh-Exp"/>
+                            <constraint firstItem="DoA-8A-q81" firstAttribute="leading" secondItem="fkc-sS-uEN" secondAttribute="trailing" constant="70" id="zBD-WT-egW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="qVm-Uw-OXN"/>
+                    <connections>
+                        <outlet property="EMTNeumorphicView" destination="fWP-eR-iu7" id="d6p-po-vZV"/>
+                        <outlet property="playAndStopButton" destination="fkc-sS-uEN" id="dlA-jP-Bqx"/>
+                        <outlet property="profileButton" destination="4TJ-cU-xAR" id="CGr-en-j81"/>
+                        <outlet property="recordButton" destination="Gu8-a7-r2b" id="ttR-sQ-785"/>
+                        <outlet property="saveButton" destination="DoA-8A-q81" id="Bc3-MT-WGA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qMZ-Hc-QDa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2324.6376811594205" y="803.57142857142856"/>
+        </scene>
+        <!--Set Yosegaki Info View Controller-->
+        <scene sceneID="SqC-xe-NNQ">
+            <objects>
+                <viewController storyboardIdentifier="SetYosegakiInfoVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HPz-Q0-Ad7" customClass="SetYosegakiInfoViewController" customModule="YoseGoe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="liw-Eu-J1w">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FVF-FO-Ixw" customClass="EMTNeumorphicView" customModule="EMTNeumorphicView">
+                                <rect key="frame" x="20" y="207" width="374" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Yy-cy-amt">
+                                        <rect key="frame" x="8" y="11" width="358" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q3b-Qj-0Lb" customClass="EMTNeumorphicView" customModule="EMTNeumorphicView">
+                                <rect key="frame" x="20" y="117" width="374" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="寄せ書きのIDが表示される" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMO-Vq-b3V">
+                                        <rect key="frame" x="8" y="8" width="358" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="APr-31-Zw7" customClass="EMTNeumorphicButton" customModule="EMTNeumorphicView">
+                                <rect key="frame" x="79" y="420" width="256" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="IDとパスワードを保存する">
+                                    <color key="titleColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveIDAndPassword:" destination="HPz-Q0-Ad7" eventType="touchUpInside" id="c7Z-sW-rFa"/>
+                                    <action selector="startYosegaki:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CR0-8W-3T3"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ffm-Cf-3lS" customClass="EMTNeumorphicView" customModule="EMTNeumorphicView">
+                                <rect key="frame" x="20" y="293" width="374" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Ek-4g-2Sz">
+                                        <rect key="frame" x="8" y="11" width="358" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aet-KM-UHr"/>
+                        <color key="backgroundColor" red="0.97606652979999997" green="0.91766804459999995" blue="0.91764652729999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fol-tD-Vlh"/>
+                    <connections>
+                        <outlet property="IDlLabel" destination="cMO-Vq-b3V" id="ozn-nb-afT"/>
+                        <outlet property="labelEMTNeumorphicView" destination="q3b-Qj-0Lb" id="xVb-ud-Hm6"/>
+                        <outlet property="nameTextField" destination="0Ek-4g-2Sz" id="CrZ-Pa-FBm"/>
+                        <outlet property="nameTextFieldEMTNeumorphicView" destination="Ffm-Cf-3lS" id="Yxz-nN-oES"/>
+                        <outlet property="passwordTextField" destination="7Yy-cy-amt" id="1Zr-w7-sjH"/>
+                        <outlet property="saveEMTNuemorphicButton" destination="APr-31-Zw7" id="Ac6-Hx-GQv"/>
+                        <outlet property="textFieldEMTNeumorphicView" destination="FVF-FO-Ixw" id="Aog-ws-2xO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y7g-pr-jcv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2324.6376811594205" y="79.6875"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="boB-RS-Ggb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Rxt-sh-Pfm" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QGH-eU-VaX">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="hKN-8F-gdD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="koR-S6-FYg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="658" y="80"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="noprofile" width="256" height="256"/>
+        <image name="playandstop" width="200" height="200"/>
+        <image name="record" width="256" height="256"/>
+        <image name="save" width="256" height="256"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

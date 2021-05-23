@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0110A5635FC26BE06E510B59 /* Pods_YoseGoe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70ED5D49A4511EA4817B3882 /* Pods_YoseGoe.framework */; };
+		340FC6412607004000F84988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340FC6402607004000F84988 /* AppDelegate.swift */; };
+		340FC6432607004000F84988 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340FC6422607004000F84988 /* SceneDelegate.swift */; };
+		340FC64A2607004200F84988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340FC6492607004200F84988 /* Assets.xcassets */; };
+		340FC64D2607004200F84988 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340FC64B2607004200F84988 /* LaunchScreen.storyboard */; };
+		340FC65D260700EA00F84988 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340FC659260700EA00F84988 /* ViewController.swift */; };
+		340FC65E260700EA00F84988 /* MessageBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340FC65A260700EA00F84988 /* MessageBoardViewController.swift */; };
+		340FC65F260700EA00F84988 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340FC65B260700EA00F84988 /* RecordViewController.swift */; };
+		340FC660260700EA00F84988 /* SetYosegakiInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340FC65C260700EA00F84988 /* SetYosegakiInfoViewController.swift */; };
+		340FC6642607010E00F84988 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340FC6632607010E00F84988 /* Main.storyboard */; };
+		340FC668260701CC00F84988 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 340FC667260701CC00F84988 /* GoogleService-Info.plist */; };
+		3459B222260D6160008B1CFE /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459B221260D6160008B1CFE /* UserData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		340FC63D2607004000F84988 /* YoseGoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoseGoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		340FC6402607004000F84988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		340FC6422607004000F84988 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		340FC6492607004200F84988 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		340FC64C2607004200F84988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		340FC64E2607004200F84988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		340FC659260700EA00F84988 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		340FC65A260700EA00F84988 /* MessageBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBoardViewController.swift; sourceTree = "<group>"; };
+		340FC65B260700EA00F84988 /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		340FC65C260700EA00F84988 /* SetYosegakiInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetYosegakiInfoViewController.swift; sourceTree = "<group>"; };
+		340FC6632607010E00F84988 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		340FC667260701CC00F84988 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3459B221260D6160008B1CFE /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		70ED5D49A4511EA4817B3882 /* Pods_YoseGoe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoseGoe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C261C02EF728CF7E0B52AFBD /* Pods-YoseGoe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoseGoe.debug.xcconfig"; path = "Target Support Files/Pods-YoseGoe/Pods-YoseGoe.debug.xcconfig"; sourceTree = "<group>"; };
+		F59EE00E5683CDEDD7177788 /* Pods-YoseGoe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoseGoe.release.xcconfig"; path = "Target Support Files/Pods-YoseGoe/Pods-YoseGoe.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		340FC63A2607004000F84988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0110A5635FC26BE06E510B59 /* Pods_YoseGoe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		326A206830C9672C1984F5E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70ED5D49A4511EA4817B3882 /* Pods_YoseGoe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		340FC6342607004000F84988 = {
+			isa = PBXGroup;
+			children = (
+				340FC63F2607004000F84988 /* YoseGoe */,
+				340FC63E2607004000F84988 /* Products */,
+				FBF7D9540DD47D1AC9511459 /* Pods */,
+				326A206830C9672C1984F5E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		340FC63E2607004000F84988 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				340FC63D2607004000F84988 /* YoseGoe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		340FC63F2607004000F84988 /* YoseGoe */ = {
+			isa = PBXGroup;
+			children = (
+				340FC6582607008400F84988 /* View */,
+				340FC6572607007D00F84988 /* Model */,
+				340FC6562607007500F84988 /* Controller */,
+				340FC6402607004000F84988 /* AppDelegate.swift */,
+				340FC6422607004000F84988 /* SceneDelegate.swift */,
+				340FC6632607010E00F84988 /* Main.storyboard */,
+				340FC6492607004200F84988 /* Assets.xcassets */,
+				340FC64B2607004200F84988 /* LaunchScreen.storyboard */,
+				340FC64E2607004200F84988 /* Info.plist */,
+				340FC667260701CC00F84988 /* GoogleService-Info.plist */,
+			);
+			path = YoseGoe;
+			sourceTree = "<group>";
+		};
+		340FC6562607007500F84988 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				340FC65A260700EA00F84988 /* MessageBoardViewController.swift */,
+				340FC65B260700EA00F84988 /* RecordViewController.swift */,
+				340FC65C260700EA00F84988 /* SetYosegakiInfoViewController.swift */,
+				340FC659260700EA00F84988 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		340FC6572607007D00F84988 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3459B221260D6160008B1CFE /* UserData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		340FC6582607008400F84988 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FBF7D9540DD47D1AC9511459 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C261C02EF728CF7E0B52AFBD /* Pods-YoseGoe.debug.xcconfig */,
+				F59EE00E5683CDEDD7177788 /* Pods-YoseGoe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		340FC63C2607004000F84988 /* YoseGoe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 340FC6512607004200F84988 /* Build configuration list for PBXNativeTarget "YoseGoe" */;
+			buildPhases = (
+				C8E723940383EE1B2E741D91 /* [CP] Check Pods Manifest.lock */,
+				340FC6392607004000F84988 /* Sources */,
+				340FC63A2607004000F84988 /* Frameworks */,
+				340FC63B2607004000F84988 /* Resources */,
+				C20CB80D1849DB8A4B37BC8A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoseGoe;
+			productName = YoseGoe;
+			productReference = 340FC63D2607004000F84988 /* YoseGoe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		340FC6352607004000F84988 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					340FC63C2607004000F84988 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 340FC6382607004000F84988 /* Build configuration list for PBXProject "YoseGoe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 340FC6342607004000F84988;
+			productRefGroup = 340FC63E2607004000F84988 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				340FC63C2607004000F84988 /* YoseGoe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		340FC63B2607004000F84988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340FC6642607010E00F84988 /* Main.storyboard in Resources */,
+				340FC668260701CC00F84988 /* GoogleService-Info.plist in Resources */,
+				340FC64D2607004200F84988 /* LaunchScreen.storyboard in Resources */,
+				340FC64A2607004200F84988 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C20CB80D1849DB8A4B37BC8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoseGoe/Pods-YoseGoe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoseGoe/Pods-YoseGoe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YoseGoe/Pods-YoseGoe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8E723940383EE1B2E741D91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoseGoe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		340FC6392607004000F84988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340FC660260700EA00F84988 /* SetYosegakiInfoViewController.swift in Sources */,
+				340FC6412607004000F84988 /* AppDelegate.swift in Sources */,
+				3459B222260D6160008B1CFE /* UserData.swift in Sources */,
+				340FC65D260700EA00F84988 /* ViewController.swift in Sources */,
+				340FC65F260700EA00F84988 /* RecordViewController.swift in Sources */,
+				340FC6432607004000F84988 /* SceneDelegate.swift in Sources */,
+				340FC65E260700EA00F84988 /* MessageBoardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		340FC64B2607004200F84988 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				340FC64C2607004200F84988 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		340FC64F2607004200F84988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		340FC6502607004200F84988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		340FC6522607004200F84988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C261C02EF728CF7E0B52AFBD /* Pods-YoseGoe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MW926W7WXX;
+				INFOPLIST_FILE = YoseGoe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RioFujimon.YoseGoe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		340FC6532607004200F84988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F59EE00E5683CDEDD7177788 /* Pods-YoseGoe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MW926W7WXX;
+				INFOPLIST_FILE = YoseGoe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RioFujimon.YoseGoe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		340FC6382607004000F84988 /* Build configuration list for PBXProject "YoseGoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340FC64F2607004200F84988 /* Debug */,
+				340FC6502607004200F84988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		340FC6512607004200F84988 /* Build configuration list for PBXNativeTarget "YoseGoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340FC6522607004200F84988 /* Debug */,
+				340FC6532607004200F84988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 340FC6352607004000F84988 /* Project object */;
+}
